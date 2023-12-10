@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/employ-test/static/css/main.24aed096.css",
+    "main.js": "/employ-test/static/js/main.949cdf28.js",
+    "static/media/map.webp": "/employ-test/static/media/map.a68211a2d47f9d416d44.webp",
+    "static/media/bg.webp": "/employ-test/static/media/bg.7969281df5f52b7279f2.webp",
+    "static/media/qiwi.svg": "/employ-test/static/media/qiwi.36cf84896598293f75fa457f27fc4d05.svg",
+    "static/media/file.svg": "/employ-test/static/media/file.afb8938902bc61b0102f7f3cb8a8bef9.svg",
+    "static/media/vk.svg": "/employ-test/static/media/vk.b51a2ab92a50ddfefa39d18cbb047e9d.svg",
+    "static/media/webmoney.svg": "/employ-test/static/media/webmoney.293c897c982cf9232b2b4008be4a78b6.svg",
+    "static/media/export.svg": "/employ-test/static/media/export.550d16797fc2856fa95382af3bfa5201.svg",
+    "static/media/percent.svg": "/employ-test/static/media/percent.8e2735815063fef12d6ce7346fc6fbb2.svg",
+    "static/media/mail.svg": "/employ-test/static/media/mail.a28186d0489711501e85aebf959228a6.svg",
+    "static/media/message.svg": "/employ-test/static/media/message.363cd65f1981ea3dc4a59f3b05c05a06.svg",
+    "index.html": "/employ-test/index.html",
+    "static/media/money.svg": "/employ-test/static/media/money.6b2c22b2b07cf5dfab067637a1e135fe.svg",
+    "static/media/yandex.svg": "/employ-test/static/media/yandex.69b2c7c30bce5661de9fa79801baa919.svg",
+    "static/media/search.svg": "/employ-test/static/media/search.6616356b57098dbb3fc5ff004dfba7e9.svg",
+    "main.24aed096.css.map": "/employ-test/static/css/main.24aed096.css.map",
+    "main.949cdf28.js.map": "/employ-test/static/js/main.949cdf28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24aed096.css",
+    "static/js/main.949cdf28.js"
+  ]
+}
