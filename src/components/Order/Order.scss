@@ -9,6 +9,16 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+
+  @media (max-width: 1023px) {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  @media (max-width: 767px) {
+    padding-top: 53px;
+    padding-bottom: 80px;
+  }
 }
 
 .order__bg {
@@ -20,7 +30,9 @@
 }
 
 .order__wrapper {
-  max-width: 1172px;
+  max-width: 1192px;
+  padding: 0 10px;
+  box-sizing: border-box;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -32,22 +44,23 @@
 .order__title {
   color: $white;
   font-size: 36px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
   text-transform: uppercase;
+  text-align: center;
   margin: 0;
   span {
     color: $sky-blue;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 24px;
   }
 }
 
 .order__caption {
   color: $light-gray;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  text-align: center;
   margin: 0;
   margin-top: 30px;
 }

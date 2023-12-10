@@ -1,11 +1,17 @@
 @import "./normalize.css";
 @import "./variables";
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Lato", "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 400;
+  line-height: normal;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;

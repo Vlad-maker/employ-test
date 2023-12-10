@@ -34,11 +34,7 @@ function Main() {
         </div>
 
         <div className="main__button_wrapper">
-          <a
-            href="/"
-            className="main__button main__button_order"
-            onClick={handleClick}
-          >
+          <a href="#order" className="main__button main__button_order">
             заказать
           </a>
           <a

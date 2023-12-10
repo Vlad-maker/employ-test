@@ -20,6 +20,21 @@ function SelectInput({ value, setOptionValue }) {
       top: "40px",
       backgroundColor: "#272733e5",
       borderRadius: "3px",
+      "@media (max-width: 1199px)": {
+        width: "321px",
+      },
+      "@media (max-width: 1023px)": {
+        width: "364px",
+      },
+      "@media (max-width: 767px)": {
+        width: "376px",
+      },
+      "@media (max-width: 410px)": {
+        width: "355px",
+      },
+      "@media (max-width: 374px)": {
+        width: "300px",
+      },
     }),
     menuList: (baseStyles) => ({
       ...baseStyles,
@@ -53,9 +68,12 @@ function SelectInput({ value, setOptionValue }) {
       textAlign: "left",
       cursor: "pointer",
       fontSize: "18px",
-      fontStyle: "normal",
-      fontWeight: "400",
       lineHeight: "34px",
+
+      "@media (max-width: 767px)": {
+        fontSize: "16px",
+        lineHeight: "24px",
+      },
     }),
     singleValue: (baseStyles) => ({
       ...baseStyles,
@@ -63,9 +81,12 @@ function SelectInput({ value, setOptionValue }) {
       color: clicked ? "#fff" : "#2a2b30",
       cursor: "pointer",
       fontSize: "18px",
-      fontStyle: "normal",
-      fontWeight: "400",
       lineHeight: "34px",
+
+      "@media (max-width: 767px)": {
+        fontSize: "16px",
+        lineHeight: "24px",
+      },
     }),
     placeholder: (baseStyles) => ({
       ...baseStyles,

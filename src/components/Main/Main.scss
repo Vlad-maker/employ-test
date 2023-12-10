@@ -8,6 +8,12 @@
   display: flex;
   justify-content: center;
   padding-bottom: 208px;
+  overflow: hidden;
+
+  @media (max-width: 767px) {
+    padding-top: 53px;
+    padding-bottom: 80px;
+  }
 }
 
 .main__bg {
@@ -19,7 +25,9 @@
 }
 
 .main__content_wrapper {
-  max-width: 1172px;
+  max-width: 1192px;
+  padding: 0 10px;
+  box-sizing: border-box;
   width: 100%;
   position: relative;
   z-index: 2;
@@ -31,26 +39,34 @@
   width: 100%;
   text-transform: uppercase;
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   color: $black;
 
   span {
     color: $sky-blue;
   }
+
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
 }
 
 .main__list_wrapper {
   margin-top: 80px;
+
+  @media (max-width: 767px) {
+    margin-top: 40px;
+  }
 }
 
 .main__list_title {
   margin: 0px;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
 }
 
 .main__list {
@@ -62,15 +78,22 @@
   list-style-type: none;
   padding-top: 5px;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
 }
 
 .main__button_wrapper {
   display: flex;
   gap: 30px;
   margin-top: 80px;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+    margin-top: 40px;
+    gap: 15px;
+  }
 }
 
 .main__button {

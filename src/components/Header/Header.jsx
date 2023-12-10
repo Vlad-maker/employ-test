@@ -19,7 +19,7 @@ function Header() {
           <a href="/" className="header__nav_link">
             Цены
           </a>
-          <a href="/" className="header__nav_link">
+          <a href="#order" className="header__nav_link">
             Оформить заказ
           </a>
         </nav>
