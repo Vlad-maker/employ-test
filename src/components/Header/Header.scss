@@ -1,0 +1,64 @@
+@import "../../styles/variables";
+
+.header {
+  background: $headerbg;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 33.5px 15px 31.5px;
+  z-index: 4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__wrapper {
+  max-width: 1165px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.header__logo {
+  margin: 0;
+  color: $white;
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  span {
+    color: $sky-blue-header;
+  }
+}
+
+.header__nav {
+  max-width: 435px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav_link {
+  color: $white;
+  text-decoration: none;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:first-of-type {
+    color: $sky-blue-header;
+  }
+
+  &:hover {
+    color: $hover-blue;
+  }
+}
