@@ -1,5 +1,5 @@
 # Тестовое задание для Employcity
-[Ссылка](https://github.com/facebook/create-react-app) на проект на gh-pages.
+[Ссылка](https://vlad-maker.github.io/employ-test/) на проект на gh-pages.
 
 ## Технологии
 - [React](https://ru.legacy.reactjs.org/)
