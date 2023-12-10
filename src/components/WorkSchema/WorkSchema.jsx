@@ -12,7 +12,7 @@ function WorkSchema() {
     <div className="schema">
       <div className="schema__item">
         <div className="schema__item_circle">
-          <img className="schema__item_circle-icon" src={Search} alt="search" />
+          <img src={Search} alt="search" />
         </div>
         <p className="schema__item_caption">Lorem ipsum dolor sit amet</p>
       </div>
@@ -27,11 +27,7 @@ function WorkSchema() {
 
       <div className="schema__item">
         <div className="schema__item_circle">
-          <img
-            className="schema__item_circle-icon"
-            src={Percent}
-            alt="percent"
-          />
+          <img src={Percent} alt="percent" />
         </div>
         <p className="schema__item_caption">Сonsecteturadipiscing elit</p>
       </div>
@@ -46,7 +42,7 @@ function WorkSchema() {
 
       <div className="schema__item">
         <div className="schema__item_circle">
-          <img className="schema__item_circle-icon" src={File} alt="file" />
+          <img src={File} alt="file" />
         </div>
         <p className="schema__item_caption">Sed do eiusmod tempor</p>
       </div>
@@ -61,11 +57,7 @@ function WorkSchema() {
 
       <div className="schema__item">
         <div className="schema__item_circle">
-          <img
-            className="schema__item_circle-icon"
-            src={Message}
-            alt="message"
-          />
+          <img src={Message} alt="message" />
         </div>
         <p className="schema__item_caption">Esse cillum dolore eu fugiat</p>
       </div>
@@ -80,7 +72,7 @@ function WorkSchema() {
 
       <div className="schema__item">
         <div className="schema__item_circle">
-          <img className="schema__item_circle-icon" src={Money} alt="money" />
+          <img src={Money} alt="money" />
         </div>
         <p className="schema__item_caption">
           Excepteur sint occaecat cupidatat non proident
