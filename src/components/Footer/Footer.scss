@@ -103,11 +103,11 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
 }
 
 .footer__link_text {
   font-size: 13px;
   color: $white;
-  text-decoration: none;
   margin: 0;
 }
